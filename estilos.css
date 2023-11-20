@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.logo-link a  {
+    color: white;
+    font-size: 1.5rem;
+}
+.arriba {
+    color:grey;
+}
+
+.verde{
+    color:darkgreen;
+}
+
+.bsas{
+    align-items:center;
+    height: 50%;
+    max-width: 100%; 
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
+#tituloImagen{
+    font-size:3rem;
+    text-align: right;
+}
+
+.texto{
+    padding-top: 15rem;
+    color:white;
+    width: 50%;
+    font-size:1rem;
+    text-align: right;
+    margin-inline-start: 40rem;
+    text-shadow: 0 0 3px #0d0d0d;
+}
+
+h5, h3{
+    text-align: center;
+}
+
+
+.oradores{
+    align-items: stretch;
+    gap:10%;
+    margin-left:15%;
+ }
+
+ .editar{
+    height:55%;
+    width: 100%;
+    object-fit: cover;
+}
+
+ #tituloOradores{
+    text-align:left;
+ }
+
+#gris{
+    display: flex;
+}
+
+ .caja{
+    background-color:rgb(46, 46, 57);
+    color:white;
+    text-align: left;
+    padding-left:2%;
+    width:50%;
+    padding-bottom:10%;
+}
+
+.caja h3{
+    text-align: left !important;
+}
+
+#parrafo{
+    text-align: center;
+}
+
+.formulario{
+    padding-left:20%;
+    padding-right:20% ;
+}
+
+
+.flex-container{
+    display: flex;
+    gap:5%;
+}
+
+footer {
+    background: linear-gradient(to right, #1b3743, #1E5371);
+}
+.footer-a a {
+    text-decoration: none;
+    color: white;
+}
+
